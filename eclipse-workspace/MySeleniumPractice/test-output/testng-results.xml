@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T09:09:34 IST" name="Default suite" finished-at="2024-09-23T09:10:02 IST" duration-ms="28377">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T09:09:34 IST" name="Default test" finished-at="2024-09-23T09:10:02 IST" duration-ms="28377">
+      <class name="com.DataDrivenFramework.GuruLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:34 IST" name="setUp" finished-at="2024-09-23T09:09:40 IST" duration-ms="6037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GuruBankLoginPageTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:40 IST" name="GuruBankLoginPageTest" data-provider="getTestData" finished-at="2024-09-23T09:09:42 IST" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr590686]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sArenYs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GuruBankLoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:42 IST" name="tearDown" finished-at="2024-09-23T09:09:42 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:42 IST" name="setUp" finished-at="2024-09-23T09:09:48 IST" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GuruBankLoginPageTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:48 IST" name="GuruBankLoginPageTest" data-provider="getTestData" finished-at="2024-09-23T09:09:48 IST" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sArenYs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GuruBankLoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:48 IST" name="tearDown" finished-at="2024-09-23T09:09:49 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:49 IST" name="setUp" finished-at="2024-09-23T09:09:54 IST" duration-ms="5294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GuruBankLoginPageTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:54 IST" name="GuruBankLoginPageTest" data-provider="getTestData" finished-at="2024-09-23T09:09:55 IST" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr590686]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GuruBankLoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:55 IST" name="tearDown" finished-at="2024-09-23T09:09:55 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:09:55 IST" name="setUp" finished-at="2024-09-23T09:10:01 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GuruBankLoginPageTest(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:10:01 IST" name="GuruBankLoginPageTest" data-provider="getTestData" finished-at="2024-09-23T09:10:01 IST" duration-ms="555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GuruBankLoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataDrivenFramework.GuruLoginPageTest@595b007d]" started-at="2024-09-23T09:10:01 IST" name="tearDown" finished-at="2024-09-23T09:10:02 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataDrivenFramework.GuruLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
