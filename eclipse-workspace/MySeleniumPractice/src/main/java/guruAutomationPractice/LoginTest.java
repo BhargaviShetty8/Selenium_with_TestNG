@@ -29,15 +29,10 @@ public class LoginTest {
 		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr590686");
 		driver.findElement(By.xpath("//input[contains(@name, 'password')]")).sendKeys("sArenYs");
 		driver.findElement(By.name("btnLogin")).click();
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		//boolean b = driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[3]/td")).isDisplayed();
+		//System.out.println(b);
+		driver.quit();
+			
 		
 	}
 
