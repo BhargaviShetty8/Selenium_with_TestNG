@@ -16,19 +16,21 @@ public class Base {
 	public static void init() {
 		driver = new FirefoxDriver();
 		driver.get("http://demo.guru99.com/v4/");
-		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr590686");
-		driver.findElement(By.xpath("//input[contains(@name, 'password')]")).sendKeys("sArenYs");
-		driver.findElement(By.name("btnLogin")).click();
-		driver.quit();
+		//driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr590686");
+		//driver.findElement(By.xpath("//input[contains(@name, 'password')]")).sendKeys("sArenYs");
+		//driver.findElement(By.name("btnLogin")).click();
+		//driver.quit();
 	}
 	
 	public void failed(String string){
 	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	
 	try {
-		FileUtils.copyFile(scrFile, new File ("C:\\Users\\Bubby\\eclipse-workspace\\MySeleniumPractice\\" +"Screenshots\\failshot.jpg"));
+		FileUtils.copyFile(scrFile, new File ("C:\\Users\\Bubby\\eclipse-workspace\\MySeleniumPractice\\Screenshots\\" 
+				 + string + ".jpg")); //creates n no.screenshots.
+		//FileUtils.copyFile(scrFile, new File ("C:\\Users\\Bubby\\eclipse-workspace\\MySeleniumPractice\\Screenshots\\" 
+		//		 + this.getClass().getName() + ".jpg"));  - creates one screenshot
 	} catch (IOException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	

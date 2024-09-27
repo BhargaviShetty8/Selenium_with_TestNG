@@ -23,7 +23,17 @@ public class ScreenshotTest extends Base {
 	}
 	
 	@Test
-	public void takeScreenshot() {
+	public void takeScreenshot1() {
+		Assert.assertEquals(false, true);
+	}
+	
+	@Test
+	public void takeScreenshot2() {
+		Assert.assertEquals(false, true);
+	}
+	
+	@Test
+	public void takeScreenshot3() {
 		Assert.assertEquals(false, true);
 	}
 	
